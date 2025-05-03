@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TCPStatesManifest>
+    <State code="01" name="ESTABLISHED" description="Connection is established and data can be exchanged." />
+    <State code="02" name="SYN_SENT" description="Client has sent a connection request (SYN), waiting for reply." />
+    <State code="03" name="SYN_RECV" description="Server received SYN and sent SYN-ACK, waiting for ACK." />
+    <State code="04" name="FIN_WAIT1" description="Connection closing: FIN sent, waiting for ACK or FIN." />
+    <State code="05" name="FIN_WAIT2" description="FIN acknowledged, waiting for remote FIN." />
+    <State code="06" name="TIME_WAIT" description="Waiting for enough time to pass to ensure remote received ACK." />
+    <State code="07" name="CLOSE" description="No connection state (initial or fully closed)." />
+    <State code="08" name="CLOSE_WAIT" description="Received FIN, waiting to close the connection." />
+    <State code="09" name="LAST_ACK" description="Waiting for final ACK after sending FIN." />
+    <State code="0A" name="LISTEN" description="Listening for incoming connection requests." />
+    <State code="0B" name="CLOSING" description="Simultaneous close, both ends sent FIN before ACK." />
+</TCPStatesManifest>
